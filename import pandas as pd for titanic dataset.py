@@ -73,3 +73,49 @@ plt.title('Feature Importance Analysis')
 plt.gca().invert_yaxis()  # বড় Importance উপরে দেখানোর জন্য
 plt.show()
 
+# Hyperparameter Grid তৈরি করা
+from sklearn.model_selection import GridSearchCV
+
+param_grid = {
+    'n_estimators': [100, 200, 300],
+    'max_depth': [10, 20, 30],
+    'min_samples_split': [2, 5, 10]
+}
+
+grid_search = GridSearchCV(estimator=model, param_grid=param_grid, cv=5, n_jobs=-1, verbose=2)
+grid_search.fit(X_train, y_train)
+
+best_params = grid_search.best_params_
+print(f"Best parameters: {best_params}")
+
+
+# সেরা প্যারামিটার দিয়ে মডেলটি পুনরায় ট্রেন করা
+best_model = RandomForestClassifier(max_depth=20, min_samples_split=10, n_estimators=300, random_state=42)
+best_model.fit(X_train, y_train)
+
+# Prediction এবং Accuracy চেক করা
+y_pred_best = best_model.predict(X_test)
+best_accuracy = accuracy_score(y_test, y_pred_best)
+print(f"Best Model Accuracy: {best_accuracy * 100:.2f}%")
+
+# Feature Importance বের করা
+best_importance = best_model.feature_importances_
+
+# Feature Names এর সাথে Importance যুক্ত করা
+best_feature_importance_df = pd.DataFrame({'Feature': X.columns, 'Importance': best_importance})
+
+# Importances অনুযায়ী সাজানো
+best_feature_importance_df = best_feature_importance_df.sort_values(by='Importance', ascending=False)
+
+# Print করা
+print(best_feature_importance_df)
+
+# Visualization
+plt.figure(figsize=(10, 5))
+plt.barh(best_feature_importance_df['Feature'], best_feature_importance_df['Importance'], color='skyblue')
+plt.xlabel('Importance Score')
+plt.ylabel('Feature Name')
+plt.title('Best Model Feature Importance Analysis')
+plt.gca().invert_yaxis()  # বড় Importance উপরে দেখানোর জন্য
+plt.show()
+
