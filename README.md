@@ -55,6 +55,8 @@ Below is the feature importance table for the Random Forest model:
 #### Comparative Analysis
 - Comparing these features with other studies and historical data, it is evident that social and economic factors played a significant role in the survival of Titanic passengers.
 
+![Feature Importance](Feature Importance.png)
+
 ## Model Update with Best Hyperparameters
 
 The RandomForestClassifier model was updated with the best hyperparameters found from GridSearchCV:
@@ -88,3 +90,30 @@ The updated model achieved an accuracy of **83.80%**.
 - **Embarked:** The port of embarkation contributes around 3.53%. The departure port had a minor impact on survival chances.
 
 This analysis provides insights into the importance of various features in predicting passenger survival on the Titanic.
+
+
+
+## Default Random Forest Model Performance
+
+### Performance Metrics
+
+- **Recall:** 0.76
+- **AUC Score:** 0.89
+
+### Classification Report:
+| Class | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| 0     | 0.83      | 0.86   | 0.85     | 105     |
+| 1     | 0.79      | 0.76   | 0.77     | 74      |
+
+**Accuracy:** 0.82
+
+### Analysis
+- **Precision:** For class 0, the precision is 0.83, indicating that 83% of the predictions for class 0 were correct. For class 1, the precision is 0.79.
+- **Recall:** For class 0, the recall is 0.86, indicating that 86% of the actual class 0 instances were correctly identified. For class 1, the recall is 0.76.
+- **F1-Score:** The F1-score combines precision and recall, and for class 0, it is 0.85, and for class 1, it is 0.77.
+- **Support:** Support indicates the number of actual occurrences of the class in the dataset. There were 105 instances of class 0 and 74 instances of class 1.
+
+**Summary:** The default Random Forest model shows a balanced performance across both classes, with an overall accuracy of 82%. The AUC score of 0.89 indicates a good ability 
+## Confusion Matrix for Default Model
+![Confusion Matrix](confution matrix plot of a Random forest model.png)

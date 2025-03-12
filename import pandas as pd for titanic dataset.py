@@ -40,7 +40,7 @@ y = df["Survived"]
 # Train-Test Split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Model Training
+# Random Forest  Model Training
 model = RandomForestClassifier(n_estimators=100, random_state=42)
 model.fit(X_train, y_train)
 
@@ -72,6 +72,9 @@ plt.ylabel('Feature Name')
 plt.title('Feature Importance Analysis')
 plt.gca().invert_yaxis()  # বড় Importance উপরে দেখানোর জন্য
 plt.show()
+
+
+
 
 # Hyperparameter Grid তৈরি করা
 from sklearn.model_selection import GridSearchCV
@@ -117,5 +120,32 @@ plt.xlabel('Importance Score')
 plt.ylabel('Feature Name')
 plt.title('Best Model Feature Importance Analysis')
 plt.gca().invert_yaxis()  # বড় Importance উপরে দেখানোর জন্য
+plt.show()
+
+
+
+
+#ডিফল্ট Random Forest মডেলের জন্য মেট্রিক্স বের করা:
+
+from sklearn.metrics import precision_score, recall_score, roc_auc_score, roc_curve, classification_report, confusion_matrix, ConfusionMatrixDisplay
+
+# Prediction করা
+y_pred_default = model.predict(X_test)
+
+# Precision, Recall, এবং AUC Score বের করা
+precision_default = precision_score(y_test, y_pred_default)
+recall_default = recall_score(y_test, y_pred_default)
+auc_default = roc_auc_score(y_test, model.predict_proba(X_test)[:, 1])
+
+print(f"Default Model Precision: {precision_default:.2f}")
+print(f"Default Model Recall: {recall_default:.2f}")
+print(f"Default Model AUC Score: {auc_default:.2f}")
+
+# Classification Report এবং Confusion Matrix দেখানো
+print("Classification Report for Default Model:\n", classification_report(y_test, y_pred_default))
+
+cm_default = confusion_matrix(y_test, y_pred_default)
+disp_default = ConfusionMatrixDisplay(confusion_matrix=cm_default)
+disp_default.plot()
 plt.show()
 
