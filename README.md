@@ -117,3 +117,36 @@ This analysis provides insights into the importance of various features in predi
 **Summary:** The default Random Forest model shows a balanced performance across both classes, with an overall accuracy of 82%. The AUC score of 0.89 indicates a good ability 
 ## Confusion Matrix for Default Model
 ![Confusion Matrix](confution matrix plot of a Random forest model.png)
+
+## Model Performance Comparison
+
+### Default Random Forest Model
+
+- **Recall:** 0.76
+- **AUC Score:** 0.89
+- **Accuracy:** 0.82
+
+#### Classification Report:
+| Class | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| 0     | 0.83      | 0.86   | 0.85     | 105     |
+| 1     | 0.79      | 0.76   | 0.77     | 74      |
+
+### Hyperparameter Tuned Random Forest Model
+
+- **Recall:** 0.77
+- **AUC Score:** 0.90
+- **Accuracy:** 0.84
+
+#### Classification Report:
+| Class | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| 0     | 0.85      | 0.89   | 0.87     | 105     |
+| 1     | 0.83      | 0.77   | 0.80     | 74      |
+
+### Analysis
+The hyperparameter tuned model shows improvement across all performance metrics compared to the default model. The increased recall and AUC score indicate a better ability to identify true positives and distinguish between classes. Overall accuracy has also improved.
+
+
+## Confusion Matrix for this  Model
+![Confusion Matrix]("confusion table for Hyperparameter Tuning.png")

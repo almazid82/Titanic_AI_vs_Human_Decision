@@ -149,3 +149,24 @@ disp_default = ConfusionMatrixDisplay(confusion_matrix=cm_default)
 disp_default.plot()
 plt.show()
 
+#Hyperparameter Tuning করা মডেলের জন্য মেট্রিক্স বের করা
+
+# Prediction করা
+y_pred_best = best_model.predict(X_test)
+
+# Precision, Recall, এবং AUC Score বের করা
+precision_best = precision_score(y_test, y_pred_best)
+recall_best = recall_score(y_test, y_pred_best)
+auc_best = roc_auc_score(y_test, best_model.predict_proba(X_test)[:, 1])
+
+print(f"Best Model Precision: {precision_best:.2f}")
+print(f"Best Model Recall: {recall_best:.2f}")
+print(f"Best Model AUC Score: {auc_best:.2f}")
+
+# Classification Report এবং Confusion Matrix দেখানো
+print("Classification Report for Best Model:\n", classification_report(y_test, y_pred_best))
+
+cm_best = confusion_matrix(y_test, y_pred_best)
+disp_best = ConfusionMatrixDisplay(confusion_matrix=cm_best)
+disp_best.plot()
+plt.show()
