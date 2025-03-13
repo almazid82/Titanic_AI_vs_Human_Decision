@@ -170,3 +170,27 @@ cm_best = confusion_matrix(y_test, y_pred_best)
 disp_best = ConfusionMatrixDisplay(confusion_matrix=cm_best)
 disp_best.plot()
 plt.show()
+
+
+import shap
+
+# SHAP Explainer তৈরি করা
+explainer = shap.TreeExplainer(model)
+shap_values = explainer.shap_values(X_train)
+
+# SHAP Summary Plot
+shap.summary_plot(shap_values, X_train, plot_type="bar", feature_names=features)
+
+from sklearn.model_selection import cross_val_score
+
+cv_scores = cross_val_score(best_params, X_train, y_train, cv=5)
+print(f'Cross-Validation Scores: {cv_scores}')
+print(f'Mean CV Score: {cv_scores.mean()}')
+
+
+
+
+
+
+
+

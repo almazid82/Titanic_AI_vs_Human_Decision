@@ -150,3 +150,32 @@ The hyperparameter tuned model shows improvement across all performance metrics 
 
 ## Confusion Matrix for this  Model
 ![Confusion Matrix]("confusion table for Hyperparameter Tuning.png")
+
+
+
+### Best Model Precision: 
+**0.83**
+
+### Best Model Recall: 
+**0.77**
+
+### Best Model AUC Score: 
+**0.90**
+
+### Classification Report for Best Model:
+| Class | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| 0     | 0.85      | 0.89   | 0.87     | 105     |
+| 1     | 0.83      | 0.77   | 0.80     | 74      |
+
+**Overall Accuracy:** 0.84
+
+**Macro Average:**
+- Precision: 0.84
+- Recall: 0.83
+- F1-Score: 0.83
+
+**Weighted Average:**
+- Precision: 0.84
+- Recall: 0.84
+- F1-Score: 0.84
