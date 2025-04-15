@@ -12,7 +12,10 @@ Let’s dive into the Titanic dataset—not just as data scientists, but as huma
 
 ---
 
-## Features:
+## Model vs Human: Diverging Perspectives on Survival
+
+After analyzing the Titanic dataset using a Random Forest Classifier, we found significant patterns in the following features:
+
 - Pclass
 - Sex
 - Age
