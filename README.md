@@ -179,3 +179,5 @@ The hyperparameter tuned model shows improvement across all performance metrics 
 - Precision: 0.84
 - Recall: 0.84
 - F1-Score: 0.84
+
+![SHAP Interaction Value](https://github.com/almazid82/Titanic_AI_vs_Human_Decision/raw/main/SHAP%20interaction%20value.png
