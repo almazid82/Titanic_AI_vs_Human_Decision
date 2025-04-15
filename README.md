@@ -244,3 +244,16 @@ AI can analyze survival likelihood with high accuracy (~84%), but humans bring m
 
 This project is not just about models. It’s about merging logic and emotion to understand how we make decisions—then, and now.
 
+##Finally, Can this be applied forBangladesh’s Maritime Sector?
+
+Although the Titanic dataset is historical and foreign, the decision modeling techniques applied (e.g., logistic regression, decision trees) are universally applicable.
+
+In the context of Bangladesh’s growing shipbuilding and passenger transport industry, AI-based decision systems can:
+
+- Predict survival chances during maritime accidents.
+- Help in safety protocol planning and risk assessment.
+- Assist in designing smart evacuation systems using real-time data.
+
+This study can serve as a prototype for building customized AI models using local maritime data in the future.
+
+Collaboration with Bangladesh Inland Water Transport Authority (BIWTA) or ship companies can bring practical implementation.
