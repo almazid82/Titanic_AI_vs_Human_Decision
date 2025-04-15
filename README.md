@@ -29,8 +29,8 @@ Below is the feature importance table for the Random Forest model:
 
 | Feature   | Importance |
 |-----------|-------------|
-| Fare      | 0.272501    |
-| Sex       | 0.269387    |
+| sex       | 0.272501    |
+| fare      | 0.269387    |
 | Age       | 0.251845    |
 | Pclass    | 0.087854    |
 | SibSp     | 0.047876    |
