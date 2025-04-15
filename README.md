@@ -244,7 +244,12 @@ AI can analyze survival likelihood with high accuracy (~84%), but humans bring m
 
 This project is not just about models. It’s about merging logic and emotion to understand how we make decisions—then, and now.
 
-##Finally, Can this be applied forBangladesh’s Maritime Sector?
+
+
+## Future Scope: Applicability in Bangladesh’s Maritime Sector
+
+
+Finally, Can this be applied forBangladesh’s Maritime Sector?
 
 Although the Titanic dataset is historical and foreign, the decision modeling techniques applied (e.g., logistic regression, decision trees) are universally applicable.
 
