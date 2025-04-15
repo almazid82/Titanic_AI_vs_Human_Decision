@@ -127,8 +127,7 @@ This analysis provides insights into the importance of various features in predi
 - **Support:** Support indicates the number of actual occurrences of the class in the dataset. There were 105 instances of class 0 and 74 instances of class 1.
 
 **Summary:** The default Random Forest model shows a balanced performance across both classes, with an overall accuracy of 82%. The AUC score of 0.89 indicates a good ability 
-## Confusion Matrix for Default Model
-![Confusion Matrix](confution matrix plot of a Random forest model.png)
+
 
 ## Model Performance Comparison
 
