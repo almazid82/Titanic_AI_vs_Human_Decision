@@ -1,4 +1,4 @@
-# Titanic_AI_vs_Human_Decision
+hi# Titanic_AI_vs_Human_Decision
  "Analyzing AI vs Human Decision Making in Titanic Dataset
 
  # Titanic AI vs Human Decision
@@ -181,3 +181,9 @@ The hyperparameter tuned model shows improvement across all performance metrics 
 - F1-Score: 0.84
 
 ![SHAP Interaction Value](https://github.com/almazid82/Titanic_AI_vs_Human_Decision/raw/main/SHAP%20interaction%20value.png
+
+## SHAP Interaction Visualization
+
+![SHAP Interaction](https://github.com/almazid82/Titanic_AI_vs_Human_Decision/raw/main/SHAP%20interaction%20value.png)
+
+এই visualization টি SHAP interaction value বিশ্লেষণে সাহায্য করে, যেখানে আমরা feature গুলোর পারস্পরিক সম্পর্ক বুঝতে পারি এবং কোন feature decision-making এ সবচেয়ে বেশি প্রভাব রাখছে তা চিহ্নিত করতে পারি
