@@ -249,7 +249,7 @@ This project is not just about models. It’s about merging logic and emotion to
 ## Future Scope: Applicability in Bangladesh’s Maritime Sector
 
 
-Finally, Can this be applied forBangladesh’s Maritime Sector?
+Finally, Can this be applied for Bangladesh’s Maritime Sector?
 
 Although the Titanic dataset is historical and foreign, the decision modeling techniques applied (e.g., logistic regression, decision trees) are universally applicable.
 
