@@ -1,9 +1,16 @@
-I'm# Titanic_AI_vs_Human_Decision
- "Analyzing AI vs Human Decision Making in Titanic Dataset
+# Titanic_AI_vs_Human_Decision
 
- # Titanic AI vs Human Decision
+## A Data Story: "Last Voyage – A Tale of Fate, Class, and Choice"
 
-This project analyzes the Titanic dataset to predict the survival of passengers using a Random Forest Classifier.
+**April 15, 1912.** The world’s grandest ship, Titanic, sank into the icy waters of the North Atlantic. Onboard were 2,200+ souls—some rich, some poor, some dreaming of a new world, and some simply returning home. But when the unthinkable happened, not everyone got an equal chance at survival. 
+
+Who lived? Who didn’t? And why?
+
+This dataset holds the last known information about those passengers. Today, we don’t just look at names and numbers. We bring in Artificial Intelligence to revisit that fateful night and ask: _Could survival have been predicted?_ And more importantly—_How would a human decide differently from a machine?_
+
+Let’s dive into the Titanic dataset—not just as data scientists, but as human beings curious about fairness, fate, and decision-making.
+
+---
 
 ## Features:
 - Pclass
