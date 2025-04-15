@@ -2,7 +2,7 @@
 
 ![Titenic Dataset Analysis](https://github.com/almazid82/Titanic_AI_vs_Human_Decision/blob/main/Titenic%20.jpg)
 
-![Dataset](https://github.com/almazid82/Titanic_AI_vs_Human_Decision/blob/main/Titanic.csv)
+![View Dataset from here ](https://github.com/almazid82/Titanic_AI_vs_Human_Decision/blob/main/Titanic.csv)
 
 ## A Data Story: "Last Voyage – A Tale of Fate, Class, and Choice"
 
