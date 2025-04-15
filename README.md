@@ -70,6 +70,8 @@ The updated model achieved an accuracy of **83.80%**.
 
 ### Feature Importance Analysis for Updated Model
 
+![feature importance](https://github.com/almazid82/Titanic_AI_vs_Human_Decision/blob/main/Feature%20Importance.png)
+
 | Feature  | Importance |
 |----------|-------------|
 | Sex      | 0.368605    |
