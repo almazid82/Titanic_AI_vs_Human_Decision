@@ -1,4 +1,4 @@
-# Titanic_AI_vs_Human_Decision
+I'm# Titanic_AI_vs_Human_Decision
  "Analyzing AI vs Human Decision Making in Titanic Dataset
 
  # Titanic AI vs Human Decision
@@ -150,8 +150,11 @@ This analysis provides insights into the importance of various features in predi
 The hyperparameter tuned model shows improvement across all performance metrics compared to the default model. The increased recall and AUC score indicate a better ability to identify true positives and distinguish between classes. Overall accuracy has also improved.
 
 
-## Confusion Matrix for this  Model
-![Confusion Matrix]("confusion table for Hyperparameter Tuning.png")
+## Confusion Matrix (After Hyperparameter Tuning)
+
+![Confusion Matrix](https://github.com/almazid82/Titanic_AI_vs_Human_Decision/raw/main/confusion%20table%20for%20Hyperparameter%20Tuning.png)
+
+এই চিত্রটি Hyperparameter tuning এর পর model এর performance বোঝাতে সাহায্য করে। True positives এবং false predictions স্পষ্টভাবে বোঝা যায় এই confusion matrix থেকে — যা model optimization-এর জন্য অত্যন্ত গুরুত্বপূর্ণ।
 
 
 
@@ -182,7 +185,7 @@ The hyperparameter tuned model shows improvement across all performance metrics 
 - Recall: 0.84
 - F1-Score: 0.84
 
-![SHAP Interaction Value](https://github.com/almazid82/Titanic_AI_vs_Human_Decision/raw/main/SHAP%20interaction%20value.png
+
 
 ## SHAP Interaction Visualization
 
