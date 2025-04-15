@@ -234,7 +234,7 @@ AI, on the other hand, **relies solely on patterns in historical data**:
 | **AI**      | Pattern recognition, consistent decision-making | Lacks empathy, may overfit past patterns, ignores context |
 
 ### Conclusion:
-AI can analyze survival likelihood with high accuracy (~84%), but humans bring moral context and situational ethics. A rescue plan optimized by AI might be efficient—but would it be humane? Meanwhile, human decision-making might be flawed, but it reflects values like sacrifice, love, and honor.
+AI can analyze survival likelihood with high accuracy (~84%), but humans bring moral context and situational ethics. A rescue plan optimized by AI might be efficient—but would it be human? Meanwhile, human decision-making might be flawed, but it reflects values like sacrifice, love, and honor.
 
 ---
 
