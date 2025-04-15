@@ -1,5 +1,7 @@
 # Titanic_AI_vs_Human_Decision
 
+![Titenic Dataset Analysis](https://github.com/almazid82/Titanic_AI_vs_Human_Decision/blob/main/Titenic%20.jpg)
+
 ## A Data Story: "Last Voyage – A Tale of Fate, Class, and Choice"
 
 **April 15, 1912.** The world’s grandest ship, Titanic, sank into the icy waters of the North Atlantic. Onboard were 2,200+ souls—some rich, some poor, some dreaming of a new world, and some simply returning home. But when the unthinkable happened, not everyone got an equal chance at survival. 
