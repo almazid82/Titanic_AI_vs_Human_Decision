@@ -122,6 +122,12 @@ This analysis provides insights into the importance of various features in predi
 
 ## Model Performance Comparison
 
+## Confusion Matrix (Random Forest Model)
+
+![Confusion Matrix - Random Forest](https://github.com/almazid82/Titanic_AI_vs_Human_Decision/raw/main/confution%20matrix%20plot%20of%20a%20Random%20forest%20model.png)
+
+এই confusion matrix টি Random Forest model-এর পারফরমেন্স বিশ্লেষণ করে। এটি থেকে দেখা যায় মডেলটি কোন ক্যাটাগরি গুলিকে সঠিকভাবে চিহ্নিত করতে পেরেছে এবং কোথায় misclassification হয়েছে। এই visualization টি accuracy, recall, ও precision metrics বোঝার জন্য কার্যকর।
+
 ### Default Random Forest Model
 
 - **Recall:** 0.76
