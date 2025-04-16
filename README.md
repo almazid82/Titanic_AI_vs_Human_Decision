@@ -265,3 +265,19 @@ In the context of Bangladesh’s growing shipbuilding and passenger transport in
 This study can serve as a prototype for building customized AI models using local maritime data in the future.
 
 Collaboration with Bangladesh Inland Water Transport Authority (BIWTA) or ship companies can bring practical implementation.
+
+
+## License
+
+This content is shared for **educational and portfolio purposes only**.  
+Licensed under the [MIT License](LICENSE) © 2025 Shamsul Al Mazid.
+
+---
+
+## Contact
+
+**Shamsul Al Mazid**  
+Aspiring Data Analyst  
+Email: [shamsulalmazid@gmail.com]  
+LinkedIn: [linkedin.com/in/shamsul-al-mazid](https://www.linkedin.com/in/shamsul-al-mazid-073a87286)
+
