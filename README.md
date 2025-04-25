@@ -1,5 +1,8 @@
 # Titanic_AI_vs_Human_Decision
 
+ ![Python](https://img.shields.io/badge/-Python-3670A0?style=flat-square&logo=python&logoColor=white)
+  ![Data Analysis](https://img.shields.io/badge/-Data_Analysis-teal?style=flat-square)
+
 ![Titenic Dataset Analysis](https://github.com/almazid82/Titanic_AI_vs_Human_Decision/blob/main/Titenic%20.jpg)
 
 ![View Dataset from here ](https://github.com/almazid82/Titanic_AI_vs_Human_Decision/blob/main/Titanic.csv)
